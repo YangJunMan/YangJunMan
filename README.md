@@ -42,6 +42,7 @@
 - **개요**: 홈서버(Ubuntu 24.04, RTX 2080 SUPER)에서 Whisper 모델과 LLM을 연동해 브라우저 녹음 즉시 회의록을 생성하고 Confluence로 자산화하는 무개입 파이프라인.
 - **성과**: 회의록 작성 수작업 공수 0분 단축, 24시간 후 음성 데이터 자동 파기로 프라이버시 보호.
 - **스택**: Whisper, Python systemd 데몬, Confluence API, Cloudflare Tunnel
+- **보안 점검**: [프롬프트 인젝션·악성 업로드·AI 권한 점검 기록 →](docs/meeting-demo-security.md) (직접 공격 시험, 코드 리뷰 10건, 남은 한계)
 
 ### 4. [내 집 찾기 (Search Auction - 법원 부동산 경매 시각화)](https://github.com/YangJunMan/search_auction)
 - **개요**: 법원 부동산 경매 물건의 유찰 횟수, 감정가 대비 비율, 역세권 반경을 지도 위에서 실시간 필터링할 수 있는 풀스택 웹 서비스.
